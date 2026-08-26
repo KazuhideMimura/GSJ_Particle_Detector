@@ -1,0 +1,12 @@
+# class name
+names:
+  0: pollen
+nc: 1 # number of classes
+
+# path to training dataset
+path: ./dataset/pollen250620
+
+# folder names for training, validation and test (in "path")
+train: train
+val: val
+test: val # same to val is OK

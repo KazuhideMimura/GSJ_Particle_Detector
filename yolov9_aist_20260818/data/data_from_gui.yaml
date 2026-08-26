@@ -1,0 +1,9 @@
+names:
+  0: tooth
+  1: denticle
+  2: saw-toothed
+nc: 3
+path: ./dataset/sample
+test: test
+train: train
+val: val
