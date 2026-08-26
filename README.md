@@ -1,4 +1,5 @@
 # GSJ Particle Detector
+<a href="https://doi.org/10.5281/zenodo.22114711"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.22114711.svg" alt="DOI"></a>
 
 ## Citation
 If you use this program, please cite it as below:
