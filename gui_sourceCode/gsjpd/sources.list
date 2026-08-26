@@ -1,0 +1,9 @@
+application.py
+main_window.py
+config/
+detection/
+helper/
+io/
+model/
+scripts/
+widget/

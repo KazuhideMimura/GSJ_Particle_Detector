@@ -1,0 +1,51 @@
+[project]
+name = "GSJParticleDetector"
+description = "GSJ Particle Detector"
+dynamic = ["version"]
+requires-python = "~=3.12"
+license = {text = "proprietary"}
+classifiers = [
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: Microsoft :: Windows",
+]
+dependencies = [
+    "PySide6-Essentials~=6.8.1",
+    "pydantic>=2.9.2",
+    "PyYAML~=6.0.2",
+    "pywin32>=308",
+    "send2trash~=1.8.3"
+]
+
+[project.optional-dependencies]
+dev = [
+    'build',
+]
+
+[project.scripts]
+gsj_pd = "gsjpd.__main__:main"
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools.dynamic]
+version = {attr = "gsjpd.__metadata__.__build__"}
+
+[tool.setuptools.packages.find]
+exclude = []
+include = ["gsjpd*"]
+
+[tool.setuptools.package-data]
+gsjpd = ["application.ico"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 96
+indent-width = 4
+
+exclude = [
+    ".eggs",
+    "build",
+    "dist",
+]

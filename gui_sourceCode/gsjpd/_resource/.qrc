@@ -1,0 +1,20 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="translations">
+        <file alias="translations.ja.qm">translations.ja.qm</file>
+    </qresource>
+    <qresource prefix="stylesheets">
+        <file alias="style.qss">style.qss</file>
+    </qresource>
+    <qresource prefix="settings">
+        <file alias="defaults.ini">defaults.ini</file>
+    </qresource>
+    <qresource prefix="icons">
+        <file alias="app_icon_32.png">icons/app_icon_32.png</file>
+        <file alias="app_icon_64.png">icons/app_icon_64.png</file>
+        <file alias="gear.png">icons/gear.png</file>
+        <file alias="down-arrow.png">icons/down-arrow.png</file>
+    </qresource>
+    <qresource prefix="images">
+    </qresource>
+</RCC>
