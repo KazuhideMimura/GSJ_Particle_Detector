@@ -1,5 +1,13 @@
 # GSJ Particle Detector
 
+## Citation
+If you use this program, please cite it as below:
+> Mimura, K., Itaki, T., & Miyakawa, A. (2026). GSJ Particle Detector (Version v1.0.4) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22114711
+
+Please also consider citing the following paper for use of object detection in geological observations.
+
+> Mimura, K., Nakamura, K., Yasukawa, K., Sibert, E. C., Ohta, J., Kitazawa, T., & Kato, Y. (2024). Applicability of object detection to microfossil research: Implications from deep learning models to detect microfossil fish teeth and denticles using YOLO‐v7. Earth and Space Science, 11(1), e2023EA003122. https://doi.org/10.1029/2023EA003122
+
 ## About
 <B>GSJ Particle Detector</B> is an object detection application designed to detect and crop particles from geological images, especially microscopic images. Based on [YOLO-v9](https://github.com/WongKinYiu/yolov9), this package provides a simple graphical user interface to conduct training and inference of object detection models.
 
