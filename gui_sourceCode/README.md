@@ -14,7 +14,7 @@ PS> conda activate yolov9-dev
 
 ### GUIリソースファイルのコンパイル
 
-※以下のコマンドは `src/gsjpd` フォルダ内で実行
+※以下のコマンドは `src/gui_sourceCode` フォルダ内で実行
 
 ```Anaconda PowerShell
 # 翻訳ファイルの更新
@@ -29,7 +29,7 @@ PS> conda activate yolov9-dev
 
 ### Wheelファイルのビルド
 
-※以下のコマンドは `src` フォルダ内で実行
+※以下のコマンドは `gui_sourceCode` フォルダ内で実行
 
 ```Anaconda PowerShell
 (yolov9-dev) PS> python -m build --wheel
@@ -37,7 +37,7 @@ PS> conda activate yolov9-dev
 
 ### 依存パッケージのダウンロード（オフラインインストール用）
 
-※以下のコマンドは `src` フォルダ内で実行
+※以下のコマンドは `gui_sourceCode` フォルダ内で実行
 
 ```Anaconda PowerShell
 (yolov9-dev) PS> pip download --dest "dist" .
