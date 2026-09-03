@@ -1,0 +1,11 @@
+# cache
+**/__pycache__/
+
+# Distribution / packaging
+**/build/
+**/develop-eggs/
+**/dist/
+**/eggs/
+**/.eggs/
+**/wheels/
+**/python-wheels/
