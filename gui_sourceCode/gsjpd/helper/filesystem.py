@@ -43,9 +43,9 @@ def abspath(path: os.PathLike, fspath: bool = False, posix: bool = False) -> Pat
 def argpath(path: os.PathLike, fspath: bool = False, posix: bool = False) -> Path | str:
     path = relpath(path)
 
-    # yolov9の['data', 'models', 'utils']にあるファイルは検索されるのでファイル名のみ
-    if not path.is_absolute() and path.parts[0] in ["data", "models", "utils"]:
-        path = Path(path.name)
+    # # yolov9の['data', 'models', 'utils']にあるファイルは検索されるのでファイル名のみ
+    # if not path.is_absolute() and path.parts[0] in ["data", "models", "utils"]:
+    #     path = Path(path.name)
 
     if fspath:
         return os.fspath(path)

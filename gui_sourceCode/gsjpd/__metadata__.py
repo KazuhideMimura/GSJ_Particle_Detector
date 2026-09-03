@@ -5,7 +5,7 @@ APPLICATION_NAME = "GSJ Particle Detector"
 PACKAGE_NAME = "gsjpd"
 
 VERSION = 1
-RELEASE = [0, 4]
+RELEASE = [0, 5]
 PRE_RELEASE = ""
 
 BUILD = datetime.now().strftime("%m%d%H%M")

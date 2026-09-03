@@ -157,7 +157,7 @@
         <translation></translation>
     </message>
     <message>
-        <location filename="../config/dialog.py" line="71"/>
+        <location filename="../config/dialog.py" line="70"/>
         <source>Relative path to the pretrained weights folder</source>
         <translation></translation>
     </message>
@@ -273,7 +273,7 @@
 <context>
     <name>DetectionMainWidget</name>
     <message>
-        <location filename="../detection/main.py" line="342"/>
+        <location filename="../detection/main.py" line="340"/>
         <source>An existing start file was found. Do you want to run detection on this file?</source>
         <translation>スタートファイルが見つかりました. このスタートファイルに対して検出を実行しますか?</translation>
     </message>
@@ -509,7 +509,7 @@
         <translation>実行中</translation>
     </message>
     <message>
-        <location filename="../model/main.py" line="215"/>
+        <location filename="../model/main.py" line="214"/>
         <source>The model has a training/test process currently running. Cannot rename while a process is running.</source>
         <translation>指定されたモデルは学習またはテストを実行中です。実行中は名前の変更ができません。</translation>
     </message>
@@ -524,7 +524,7 @@
         <translation>新しいモデル名を入力してください</translation>
     </message>
     <message>
-        <location filename="../model/main.py" line="250"/>
+        <location filename="../model/main.py" line="249"/>
         <source>The model has a training/test process currently running. Cannot delete while a process is running.</source>
         <translation>指定されたモデルは学習またはテストを実行中です。実行中は削除できません。</translation>
     </message>
@@ -534,7 +534,7 @@
         <translation>モデル削除</translation>
     </message>
     <message>
-        <location filename="../model/main.py" line="260"/>
+        <location filename="../model/main.py" line="259"/>
         <source>The model will be deleted with its folder. Do you want to continue?</source>
         <translation>以下のモデルフォルダを削除します．間違いはありませんか?</translation>
     </message>
@@ -706,7 +706,7 @@
         <translation>パラメーターセット確認</translation>
     </message>
     <message>
-        <location filename="../model/trainer.py" line="615"/>
+        <location filename="../model/trainer.py" line="610"/>
         <source>The parameter set shown on the screen differs from the contents of the specified YAML files. To apply the parameter set changes, you need to save them to the parameter files. 
 Do you want to continue training with the current settings?</source>
         <translation>画面上で入力されているパラメーターセットと指定したYAMLファイルの設定値が異なります．画面上で変更したパラメーターセットを適用するにはパラメーターファイルに保存してください．このまま続けてもよいですか?</translation>
@@ -717,7 +717,7 @@ Do you want to continue training with the current settings?</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../model/trainer.py" line="649"/>
+        <location filename="../model/trainer.py" line="647"/>
         <source>Model folder `{0}` already exists. Overwrite it?</source>
         <translation>モデル名 `{0}` のフォルダーが存在します．上書きしてもよいですか? </translation>
     </message>
