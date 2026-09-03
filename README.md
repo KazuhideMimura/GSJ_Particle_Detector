@@ -50,7 +50,7 @@ When the initial setup dialog appears, specify the location of the YOLOv9 folder
 You can also create a desktop shortcut. Once the shortcut has been created, the application can be launched by double-clicking the icon.
 
 ### Pretrained weights
-Pretrained models are not included in this package. Download yolov9-s, yolov9-m, yolov9-c, and yolov9-e from the [official YOLOv9 repository](https://github.com/WongKinYiu/yolov9), and place the downloaded model files in the directory `YOLOv9_AIST_202XXXXX/pretrained`.
+Pretrained models are not included in this package. Download yolov9-s, yolov9-m, yolov9-c, and yolov9-e from the [official YOLOv9 repository](https://github.com/WongKinYiu/yolov9), and place the downloaded model files in the directory `YOLOv9_AIST_20260818/pretrained`.
 
 
 ## Main functions
@@ -75,6 +75,10 @@ For detailed operating instructions, please refer to the [User Manual](files_for
 
 詳細な操作方法については、[利用マニュアル](files_for_readme/Manual_v1_0_4_Jp.pdf) を参照してください。
 </details>
+
+## Log
+- 2026.9.3: [v1.0.5](https://github.com/KazuhideMimura/GSJ_Particle_Detector/commit/caef731e35bf8a25d45ef72fb5ae876c5da05849) (bug fix)
+- 2026.8.26: [v1.0.4](https://github.com/KazuhideMimura/GSJ_Particle_Detector/releases) (First published)
 
 ## Copyright
 Copyright (c) 2026 National Institute of Advanced Industrial Science and Technology (AIST)
