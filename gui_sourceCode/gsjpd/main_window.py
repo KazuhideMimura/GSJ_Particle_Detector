@@ -155,7 +155,7 @@ class MainTabBar(QTabBar):
         self.layout().addStretch()
 
         with QContext(QToolButton(self)) as button:
-            button.setText("Prefereces")
+            button.setText("Preferences")
             button.setFixedSize(QSize(20, 20))
             self.layout().addWidget(button)
             self.config_button = button
