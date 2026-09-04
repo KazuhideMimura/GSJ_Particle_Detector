@@ -14,8 +14,6 @@ Please also consider citing the following paper for use of object detection in g
 
 The application can also be integrated with other software systems and applications to automatically perform object detection by monitoring a specified folder and triggering the detection process when new data are detected.
 
-<B>Currently, GUI supports Japanese only.</B>
-
 <details>
 <summary>日本語</summary>
 <B>GSJ Particle Detector</B> は、地質試料画像、特に顕微鏡画像を対象として粒子を検出・切り出すための AI 物体検出アプリケーションです。[YOLO-v9](https://github.com/WongKinYiu/yolov9) のプログラムを核として、本ソフトウェアは物体検出モデルの学習および推論を行うためのシンプルなグラフィカルユーザーインターフェース（GUI）を提供します。
